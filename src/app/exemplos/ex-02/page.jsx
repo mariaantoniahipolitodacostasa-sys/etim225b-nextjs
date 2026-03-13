@@ -3,17 +3,17 @@ import styles from "./page.module.css";
 
 function Home() {
   return (
-  <div className={styles.containerExemplo}>
+    <div className={styles.containerExemplo}>
       <h1>React com Next JS</h1>
-      <h2>aula de introdução</h2>
-      <h3>leiaute e estilazação</h3>
-      <p>nesta aula iremos entender o uso de css global e local</p>
-       <label>Exemplo Label</label>
+      <h2>Aula de introdução</h2>
+      <h3>Leiaute e Estilização</h3>
+      <p>Nesta aula iremos entender o uso de CSS global e local.</p>
+      <label>Exemplo Label</label>
       <small>Exemplo Small</small>
       <div className={styles.conteinerExPosicao}>
         <div className={styles.divVermelha}></div>
         <div className={styles.divVerde}></div>
- </div>
+      </div>
     </div>
   );
 }
