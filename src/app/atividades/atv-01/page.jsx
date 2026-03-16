@@ -1,10 +1,11 @@
-function atividade01 () {
+function Atividade01 () {
     return(
         <div>
-            <h1> atividade 1 </h1>
+            <h1> Exemplo 1 </h1>
             <p> Componente básico para rederizar tela com React  </p>
         </div>
     )
 
 }
- export default atividade01;
+ 
+ export default Atividade01; 
