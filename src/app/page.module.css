@@ -1,18 +1,19 @@
-.containerhome {
-    display:flex;
-    flex-direction:column;
+.containerHome{
+    display: flex;
+    flex-direction: column;
     align-items:center;
-    justify-content: space-evenly;
-    height: 95vh;
+    justify-content:space-evenly;
     width:100%;
-    max-width:142rem;
-     }
-
-.containerlistas {
+    height:95vh;
+    max-width:124rem;  
+}
+.containerlistas{
     border: 0.2rem solid #f00;
-    height:45vh;
+    height: 45vh;
     width: 100%;
-    border-radius:1rem;
-    padding:1rem;
-    overflow: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
